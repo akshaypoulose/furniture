@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0px;
+    font-family:"Playfair Display", serif;
+}
+:root{
+    --x:rgb(66, 10, 10);
+}
+#main{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/022/337/635/non_2x/modern-living-room-interior-illustration-ai-generative-free-photo.jpg");
+    width: 100%;
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#logo{
+    width: 250px;
+    height: 90px;
+}
+ul li{
+    font-size: 20px;
+}
+#BUTTON{
+    background-color: var(--x);
+    color: white;
+}
+#BUTTON:hover{
+    background-color: white;
+    color: var(--x);
+    border-color: var(--x);
+}
+li i{
+    color: rgb(159, 158, 158);
+}
+#backg{
+    background-color: rgba(1, 1, 1, 0.597);
+    width: 100%;
+    /* height: 100vh; */
+}
+
+@media(max-width:992px){
+    .nav-item i{
+        display: none;
+    }
+}
+#welcome{
+    margin-top: 22%;
+    margin-left: 5%;
+    color: white;
+}
+#welcome h4{
+    font-size: 30px;
+}
+#welcome h1{
+    font-size: 100px;
+}
+@media(max-width:600px){
+    #welcome h4{
+        font-size: 20px;
+    }
+    #welcome h1{
+        font-size: 50px;
+    }
+}
+#welcome button{
+    border-color: white;
+    color: white;
+    background-color: none;
+}
+#work{
+    background-image: url('https://img.freepik.com/premium-photo/white-concrete-wall-texture-background_44706-359.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 8%;
+    padding-top: 6%;
+}
+#view-btn1,#view-btn2,#view-btn3,#viewBtn4,#view-btn5{
+    background-color: rgba(255, 255, 255, 0.758);
+    color: var(--x);
+    border-color: var(--x);
+   
+}
+#view-btn1:hover,#view-btn2:hover,#view-btn3:hover,#viewBtn4:hover ,#view-btn5:hover{
+    background-color: var(--x);
+    color: white;
+}
+#about{
+    background-color: rgb(197, 195, 195);
+    padding-top: 8%;
+}
+#about h1{
+    color: var(--x);
+}
+#hr{
+    background-color: var(--x);
+    width: 200px;
+    height: 7px;
+}
+#about p{
+    text-align: justify;
+}
+#aboutDiv{
+    border: 7px solid var(--x);
+    width: 80%;
+    height: 490px;
+    padding-left: 4%;
+    padding-top: 4%;
+}
+#div1{
+    background-color: rgb(3, 3, 3);
+    width: 50%;
+    height: 6rem;
+    color: white;
+}
+.div2{
+    background-color:rgb(3, 3, 3) ;
+    width: 70%;
+    height: 5rem;
+    color: white;
+}
+.imdiv8{
+    width: 100%;
+    height: 982px;
+}
